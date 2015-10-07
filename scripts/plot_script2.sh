@@ -21,8 +21,8 @@ set format y "%g"
 set ytics -1.0,0.2,0.8
 set key top
 
-plot [0.2:0.5] "test.dat"    every 10    using 1:3 with lines lc rgbcolor "#a0a1b1" #title "right channel"
-plot [0.49:0.5] ""                using 1:3 with lines lc rgbcolor "#a0a1b1" #title "right channel"
+plot [0.48:0.485] "440-cd3.dat"            using 1:3 with lines lc rgbcolor "#a0a1b1" #title "right channel"
+plot [0.48:0.485] "test.dat"                using 1:3 with lines lc rgbcolor "#a0a1b1" #title "right channel"
 set ylabel "sample value r"
 set ytics -0.01,0.02,0.08
 plot [0.49:0.5] "test2.dat"       using 1:3 with lines lc rgbcolor "#a0a1b1" #title "right channel"
